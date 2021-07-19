@@ -219,7 +219,7 @@ const web3 = new Web3('https://mainnet.infura.io/v3/4524ab38c02c40dfa9db1755851e
 web3.eth.getGasPrice().then((result) => {
     console.log(web3.utils.fromWei(result, 'ether'));
 })
-
+    
 // SHA-3
 console.log(web3.utils.sha3('Abhishek Patel'));
 console.log(web3.utils.sha3('Abhishek Patel'));
