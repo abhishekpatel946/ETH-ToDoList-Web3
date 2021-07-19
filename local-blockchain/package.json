@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "nodemon": "^2.0.12",
+    "web3": "^1.4.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
